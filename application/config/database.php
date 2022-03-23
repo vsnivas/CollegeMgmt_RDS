@@ -75,9 +75,9 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'collegemngtfromrds.mysql.database.azure.com',
-	'username' => 'collegemngtadmin',
-	'password' => 'Verity@123',
+	'hostname' => 'college2with8.cxqfjx5t81on.ap-south-1.rds.amazonaws.com',
+	'username' => 'admin',
+	'password' => 'admin123',
 	'database' => 'college_mgmt',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
@@ -88,10 +88,7 @@ $db['default'] = array(
 	'char_set' => 'utf8',
 	'dbcollat' => 'utf8_general_ci',
 	'swap_pre' => '',
-	'encrypt' => array(
-        'ssl_ca' => realpath('./DigiCertGlobalRootCA.crt.pem'),
-        'ssl_verify' => FALSE
-    ),
+	'encrypt' => FALSE,
 	'compress' => FALSE,
 	'stricton' => FALSE,
 	'failover' => array(),
