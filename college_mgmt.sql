@@ -21,7 +21,7 @@ SET time_zone = "+00:00";
 --
 -- Database: `college_mgmt`
 --
-
+CREATE DATABASE college_mgmt;
 -- --------------------------------------------------------
 
 --
