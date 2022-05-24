@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'https://collegemngtwebapp.azurewebsites.net/';
+$config['base_url'] = 'http://13.232.111.248/CollegeMgmt_RDS/';
 
 /*
 |--------------------------------------------------------------------------
